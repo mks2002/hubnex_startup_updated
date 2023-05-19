@@ -14,14 +14,20 @@ const Hero = () => {
         <div className=' w-52 h-40 rounded-full bg-slate-400 absolute top-8 left-6 ' id="circle"></div>
 
         <div className=' w-[80%] m-auto h-full flex flex-col items-center justify-evenly'>
-          
+
           <div className=' text-white  relative  py-10 flex flex-col items-center gap-16 lg:w-[680px] max-[820px]:text-center'>
             <div className=' flex flex-col w-full items-center gap-4'>
               <span className=' md:text-[50px] text-[28px]  font-gilroy-bold lg:text-[60px] text-center'>Helping business</span>
               <p className=' text-[28px] md:text-[50px] font-gilroy-bold lg:text-[60px]  text-center'>through technology</p>
             </div>
             <p className=' text-[16px] lg:h-auto lg:text-[26px] font-gilroy-medium text-center'>revolutionize Your Startup's IT Strategy With Our Consultancy Services</p>
-            <Link className=' flex gap-2 py-[10px] px-[15px] md:py-[16px] md:px-[24px] bg-violet-500 rounded-full font-gilroy-semi-bold text-[16px] md:text-[20px] items-center justify-center'  >Get started <ChevronRightIcon /></Link>
+
+            {/* <Link className=' flex gap-2 py-[10px] px-[15px] md:py-[16px] md:px-[24px] bg-violet-500 rounded-full font-gilroy-semi-bold text-[16px] md:text-[20px] items-center justify-center'  >Get started <ChevronRightIcon /></Link> */}
+
+            <a href="#section1" className='flex gap-2 py-[10px] px-[15px] md:py-[16px] md:px-[24px] bg-violet-500 rounded-full font-gilroy-semi-bold text-[16px] md:text-[20px] items-center justify-center'>
+              Get started <ChevronRightIcon />
+            </a>
+
           </div>
         </div>
         <div className=' w-full flex justify-center items-center'>

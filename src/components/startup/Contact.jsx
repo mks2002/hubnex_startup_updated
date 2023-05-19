@@ -136,6 +136,7 @@ const Contact = () => {
   return (
 
     <div className='bg-black h-[900px] w-full flex flex-col justify-between pt-10 text-white overflow-hidden ' id={'section1'}>
+      
       <ToastContainer />
 
       <div className=' w-full md:w-[90%] flex flex-col h-full m-auto justify-between items-center '>

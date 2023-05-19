@@ -43,7 +43,7 @@ const MobileNavbar = ({ open }) => {
               </div>
             }
           </div>
-          
+
           <div className=' flex flex-col gap-5 '>
             <div className=' flex justify border-b-2 w-full border-b-gray-500 py-5 px-5 items-center relative'>
               <NavLink to='https://hubnex.in/industries' className={({ isActive }) => isActive ? ` underline decoration-white decoration-2 underline-offset-8  text-white` : ' flex items-center gap-2'}>Industries  </NavLink>
